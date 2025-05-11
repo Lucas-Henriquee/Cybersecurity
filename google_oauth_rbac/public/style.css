@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 80px auto;
+  background-color: white;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #202124;
+  font-size: 2.2em;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+button {
+  margin-top: 30px;
+  background-color: #4285f4;
+  color: white;
+  font-size: 1em;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3367d6;
+}
+
+.google-logo {
+  width: 64px;
+  margin-bottom: 20px;
+}
+
+.ufjf-logo {
+  height: 80px;
+  margin-bottom: 20px;
+}

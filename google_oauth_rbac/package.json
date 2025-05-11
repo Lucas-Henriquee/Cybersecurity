@@ -1,0 +1,20 @@
+{
+  "name": "google_oauth_rbac",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "google-auth-library": "^9.15.1"
+  },
+  "scripts": {
+    "oauth": "bun --env-file=process.env src/index.js"
+  }
+}

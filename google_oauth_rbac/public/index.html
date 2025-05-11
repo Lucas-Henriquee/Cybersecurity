@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Google OAuth2 Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <img src="/images/Logo_da_UFJF.jpg" alt="UFJF Logo" class="ufjf-logo" />
+    <h1>Federal University of Juiz de Fora</h1>
+
+    <h2>Google OAuth 2.0 Authentication</h2>
+    <p>
+      Welcome to the Federal University of Juiz de Fora system.<br />
+      This platform provides role-based access for <strong>Teachers</strong>, <strong>Students</strong>, and <strong>Guests</strong>.<br />
+      Your role defines what academic or administrative content you can access.
+    </p>
+
+    <p>
+      <strong>Google OAuth 2.0</strong><br />
+      Google OAuth 2.0 allows you to securely log in using your Google account.<br />
+      We will only access your <strong>name</strong>, <strong>email</strong>, and <strong>profile picture</strong> to verify your identity and assign your role (Teacher, Student, or Guest).
+    </p>
+
+
+    <form action="/login">
+      <button type="submit">Login with Google</button>
+    </form>
+  </div>
+</body>
+</html>
