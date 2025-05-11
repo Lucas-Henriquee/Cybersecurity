@@ -3,5 +3,5 @@
 
 #Google OAuth2 RBAC
 *.env
-*bun.lockb
+*bun.lock*
 *node_modules/
