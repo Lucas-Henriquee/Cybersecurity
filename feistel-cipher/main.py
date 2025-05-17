@@ -11,13 +11,13 @@ def encrypt_flow(text):
     encrypted = feistel_encrypt(text, keys)
 
     print("\n=== Encryption Result ===\n")
-    print(f"Encrypted: {encrypted}")
+    print(f"Encrypted (Base64): {encrypted}")
     wait_and_clear()
 
 # Decrypt the input flow
 def decrypt_flow():
     clear_screen()
-    text = input("\nEnter encrypted text: ")
+    text = input("\nEnter encrypted text (Base64): ")
 
     keys = generate_keys()  
     decrypted = feistel_decrypt(text, keys)
